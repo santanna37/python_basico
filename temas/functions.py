@@ -15,5 +15,5 @@ def greeting(name:str, age:int, color:str='red'):
     print(f'you will be {int(age)+1} years old next birthday')
 name = input('Enter your name: ')
 age = input('Enter your age: ')
-#color = 
-greeting(name=name, age=age)
+color = input('Enter your favorite color: ') 
+greeting(name=name, age=age, color=color)
