@@ -23,3 +23,15 @@ print(new_friends)
 #3. Find names that are in both sets
 same_friends = friends.intersection(my_friends)
 print(same_friends)
+
+#4. find names that are only in friends
+unique_friends = friends.difference(my_friends)
+print(unique_friends)
+
+#5. Show only the names who only appear in one of the lists
+only_friends = friends.difference(my_friends).union(my_friends.difference(friends))
+print(only_friends)
+
+#6. Create a new cars-list without duplicates
+cars = list(set(cars))
+print(cars)
