@@ -46,4 +46,5 @@ for LOOP OVER THE SHOPS :
     buy_item = input(f'Welcome to {SHOPNAME}! what do you want to buy: {LIST ITEMS FOR SALE})
     #update the cart
     cart.update({insert KEYVAL:VALUE}) # use pop...
-print(f'You Purchased {ITEMS PUCHASED} Today it is all free. Have a nice day of mayhem!')'''
+print(f'You Purchased {ITEMS PUCHASED} Today it is all free. Have a nice day of mayhem!')
+'''
