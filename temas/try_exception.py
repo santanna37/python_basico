@@ -27,6 +27,9 @@ finally:
 #finally:
     #always executed 
 
+import random
+import time
+
 
 def numero_dado():
     jogar = 's'

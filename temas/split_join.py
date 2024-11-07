@@ -1,14 +1,15 @@
 msg ='Welcome  to  Python  101: Split and Join'
 csv = 'Eric,John,Michael,Terry,Graham'
 friends_list = ['Eric','John','Michael','Terry','Graham']
-# print(msg.split())
-# print(msg.split(' '))
+print(msg.split())
+print(msg.split(' '))
 
 # print(msg)
-# print(''.join(msg))
-# print(''.join(msg.split()))
+#
+print(''.join(msg))
+print(''.join(msg.split()))
 
-# print(' '.join(friends_list))
+print(' '.join(friends_list))
 
 
 
